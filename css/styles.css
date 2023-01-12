@@ -318,6 +318,9 @@ textarea:focus {
   border-radius: 0px 0px 4px 4px;
 
   padding-bottom: 32px;
+}
+
+.team-item:not(:last-child) {
   margin-bottom: 72px;
 }
 
