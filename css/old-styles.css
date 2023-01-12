@@ -86,6 +86,7 @@ textarea:focus {
 }
 
 /*________DEFAULT STYLE________*/
+
 .btn {
   font-family: 'Roboto';
   cursor: pointer;
@@ -156,6 +157,7 @@ textarea:focus {
 }
 
 /*_______HEADER________*/
+
 .header {
   background-color: var(--clean-color);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -341,6 +343,7 @@ textarea:focus {
 }
 
 /*____SERVISES SECTION____*/
+
 .services {
   padding-bottom: 120px;
 }
@@ -354,6 +357,7 @@ textarea:focus {
 }
 
 /*____TEAM SECTION____*/
+
 .team {
   background-color: var(--light-color);
 }
@@ -709,12 +713,12 @@ textarea:focus {
 
 .modal-btn:active,
 .modal-btn:focus,
-.modal-btn:hover{
+.modal-btn:hover {
   background-color: var(--pressed-color);
 }
 
-.modal-btn:active .modal-icon, 
-.modal-btn:focus .modal-icon, 
+.modal-btn:active .modal-icon,
+.modal-btn:focus .modal-icon,
 .modal-btn:hover .modal-icon {
   fill: var(--clean-color);
 }
@@ -803,7 +807,7 @@ textarea:focus {
 }
 .comment-input > .modal-input {
   padding-left: 16px;
-  min-height: 120px; 
+  min-height: 120px;
 }
 
 .check-label {

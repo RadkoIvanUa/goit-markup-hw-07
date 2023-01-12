@@ -168,6 +168,7 @@ textarea:focus {
 }
 
 /*_______HEADER________*/
+
 .header {
   background-color: var(--clean-color);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -316,7 +317,6 @@ textarea:focus {
   background: var(--clean-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-
   padding-bottom: 32px;
 }
 
@@ -744,8 +744,6 @@ textarea:focus {
 }
 
 .mobile-menu.is-hidden {
-  /* display: none; */
-
   transform: translateY(-110%);
 }
 
@@ -825,15 +823,21 @@ textarea:focus {
 }
 
 @media (max-width: 767px) {
+  /* __________HEADER___________ */
+
   .header-flex > .header-nav > .header-menu,
   .header-flex > .header-contacts {
     display: none;
   }
 
+  /*__________TEAM SECTION_______ */
+
   .team-list {
     margin: 0 auto;
     width: 264px;
   }
+
+  /*__________CUSTOMERS SECTION_______ */
 
   .customers-item:nth-child(odd) {
     margin-right: 16px;
@@ -841,6 +845,8 @@ textarea:focus {
   .customers-item:not(:nth-child(n + 5)) {
     margin-bottom: 72px;
   }
+
+  /* _________FOOTER_________ */
 
   .subscribe-btn {
     margin: 0 auto;
@@ -861,10 +867,22 @@ textarea:focus {
   }
 }
 
+/*    ======================
+            TABLET STYLES
+       ======================
+     */
+
 @media (min-width: 768px) {
   .container {
     width: 768px;
   }
+
+  /*====================index.html============== */
+
+  /*   ===============
+            HEADER
+       ===============
+     */
 
   .header {
     padding: 0;
@@ -919,6 +937,11 @@ textarea:focus {
     margin-bottom: 4px;
   }
 
+  /*   ===============
+            HERO
+       ===============
+     */
+
   .hero {
     height: 436px;
   }
@@ -926,6 +949,10 @@ textarea:focus {
   .hero-title {
     font-size: 56px;
   }
+
+  /*    =======================
+            BENEFITS SECTION
+        ======================= */
 
   .benefits-subtitle {
     text-align: left;
@@ -953,6 +980,10 @@ textarea:focus {
     margin-bottom: 72px;
   }
 
+  /*    ====================
+            TEAM SECTION
+        ==================== */
+
   .team-list {
     display: flex;
     flex-wrap: wrap;
@@ -969,6 +1000,10 @@ textarea:focus {
   .team-item:nth-last-child(-n + 2) {
     margin-bottom: 0px;
   }
+  
+   /*     ====================
+            CUSTOMERS SECTION
+          ==================== */
 
   .customers-list {
     max-width: 552px;
@@ -979,6 +1014,11 @@ textarea:focus {
   .customers-item {
     flex-basis: 168px;
   }
+  
+  
+   /*    ====================
+            FOOTER SECTION
+        ==================== */
 
   .tablet-flex {
     display: flex;
