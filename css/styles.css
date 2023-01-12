@@ -360,6 +360,8 @@ textarea:focus {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 0 auto;
+  max-width: 396px;
 }
 
 .customers-item {
@@ -954,28 +956,29 @@ textarea:focus {
   }
 
   .customers-list {
-    margin-right: -24px;
-    margin-top: -72px;
+    max-width: 552px;
+    grid-column-gap: 24px;
+    grid-row-gap: 72px;
   }
 
   .customers-item {
-    margin-right: 24px;
-    margin-top: 72px;
     flex-basis: calc(100% / 3 - 24px);
   }
 
   .tablet-flex {
     display: flex;
-    justify-content: flex-start;
+
+    flex-wrap: wrap;
+    max-width: 552px;
+    margin: 0 auto;
   }
 
   .subscribe-flex {
     display: flex;
-    justify-content: flex-start;
   }
 
   .email-input {
-    max-width: 264px;
+    width: 264px;
     margin-right: 24px;
   }
 
