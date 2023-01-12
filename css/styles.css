@@ -962,7 +962,7 @@ textarea:focus {
   }
 
   .customers-item {
-    flex-basis: calc(100% / 3 - 24px);
+    flex-basis: 168px;
   }
 
   .tablet-flex {
