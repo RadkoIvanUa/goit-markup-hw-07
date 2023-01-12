@@ -102,7 +102,7 @@ textarea:focus {
 .btn {
   font-family: 'Roboto';
   cursor: pointer;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
@@ -872,7 +872,7 @@ textarea:focus {
   }
 
   .nav-link {
-    font-weight: 700;
+    font-weight: 500;
     color: var(--dark-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -908,12 +908,24 @@ textarea:focus {
     margin-left: 124px;
   }
 
+  .contacts-item {
+    font-size: 12px;
+  }
+
   .contacts-item:not(:last-child) {
     margin-bottom: 4px;
   }
 
   .hero {
     height: 436px;
+  }
+
+  .hero-title {
+    font-size: 56px;
+  }
+
+  .benefits-subtitle {
+    text-align: left;
   }
 
   .benefits-list {
@@ -984,5 +996,9 @@ textarea:focus {
 
   .footer-text {
     margin-right: 24px;
+  }
+
+  .footer-social .footer-text {
+    font-weight: 500;
   }
 }
