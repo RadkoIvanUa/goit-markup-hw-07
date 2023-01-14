@@ -844,6 +844,19 @@ textarea:focus {
     width: 264px;
   }
 
+  @media (max-width: 320px) {
+    .contacts-link.phone {
+      font-size: 20px;
+    }
+    .team-list {
+      width: 100%;
+    }
+
+    .menu-social {
+      justify-content: space-around;
+    }
+  }
+
   .team-item:not(:last-child) {
     margin-bottom: 72px;
   }
